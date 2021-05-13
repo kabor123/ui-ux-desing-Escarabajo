@@ -1,0 +1,358 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+    
+}
+
+.leftside, .rghiteside
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.leftside
+{
+    right: 0;
+    background-image: url("background1.png")
+}
+.rghiteside
+{
+    left: 0%;
+    background: url(background.png);
+    background-position-x: -57vh;
+    z-index: 1;
+    overflow: hidden;
+    
+    
+    
+        
+}
+
+
+.rghiteside.active
+{
+    z-index: 1;
+    width: 100%;
+    background-position-x: 0vh;
+    
+}
+.leftside.active
+{
+    z-index: 1;
+    width: 100%;
+}
+
+ul
+{
+    position: fixed;
+    top: -3;
+    left: -2%;
+}
+.leftside ul
+{
+    left: 57%;
+}
+ul li
+{
+    display: inline-flex;
+    margin: 15px 35px;
+    color: white;
+    font-family: Arial;
+    transition: 0.5s;
+}
+#li
+{
+   
+   border: 1px solid white;
+    padding: 8px 29px;
+    border-radius: 23px;
+    
+    
+}
+#li.active
+{
+    border: none;
+}
+
+.li.active
+{
+      border: 1px solid white;
+    padding: 8px 29px;
+    border-radius: 23px;
+}
+.li1.active
+{
+      border: 1px solid white;
+    padding: 8px 29px;
+    border-radius: 23px;
+}
+.li2
+{
+     border: 1px solid white;
+    padding: 8px 29px;
+    border-radius: 23px;
+}
+.li2.active
+{
+    border: none;
+}
+
+h1
+{
+    position: absolute;
+    top: 16%;
+    left: 8%;
+    font-family: Arial;
+    font-size: 3.5em;
+    width: 15%;
+    color: white;
+}
+
+.leftside h1
+{
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    font-family: Arial;
+    font-size: 3.5em;
+    width: 15%;
+    color: white;
+}
+.leftside p
+{
+    left: 25%;
+}
+h1 span
+{
+    font-size: 0.5em;
+    font-weight: 100;
+   
+}
+p
+{
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    font-family: Arial;
+    font-size: 0.9em;
+    color: white;
+    width: 51%;
+    
+    
+}
+.button1
+{
+    position: absolute;
+    background: #5318ff;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial;
+    top: 60%;
+    left: 8%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 5;
+   
+}
+
+.button2
+{
+    position: absolute;
+    background: #1bd5bc;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial;
+    top: 60%;
+    left: 28%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 4;
+    
+    
+   
+}
+
+.button2.change1
+{
+    content: '<';
+    position: absolute;
+    width: 4.5%;
+    top: 50%;
+    left: 25.2%;
+    font-size: 0em;
+    border-radius: 100px;
+    padding: 26px 0px;
+   
+ 
+}
+.button1.change
+{
+   content: '';
+    position: absolute;
+    width: 4.5%;
+    top: 48%;
+    left: 8%;
+    font-size: 0em;
+    border-radius: 100px;
+    padding: 26px 0px;
+ 
+}
+
+#esca
+{
+     width: 88%;
+    top: 0%;
+    left: 57.5%;
+    z-index: 2;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+#esca.active
+{
+  
+    width: 57%;
+    top: 8%;
+    left: 64%;
+    z-index: 2;
+    visibility: visible;
+}
+
+#esca1
+{
+width: 66%;
+    left: 20%;
+    top: 10;
+    z-index: 0;
+}
+#esca1.active
+{
+    width: 82%;
+    left: -21.4%;
+    top: 0;
+}
+
+#map1
+{
+    width: 43%;
+    left: 100vh;
+    top: 32vh;
+    visibility: hidden;
+}
+#map1.active
+{
+    visibility: visible;
+}
+
+.content img
+{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 25%;
+    visibility: hidden;
+    
+}
+.content img.active
+{
+    visibility: visible;
+}
+
+#tot  
+{
+    width: 60%;
+    left: 20%;
+    visibility: hidden;
+    z-index: 1;
+}
+#tot.active
+{
+    visibility: visible;
+}
+#tot1.active
+{
+    width: 60%;
+    left: -16%;
+    top: 95;
+    
+}
+
+
+img
+{
+    position: fixed;
+    left: 2%;
+    top: 7%;
+    width: 100%;
+    z-index: 5;
+}
+
+
+
+
+h2
+{
+    position: absolute;
+    top: 52%;
+    left: 8.1%;
+    color: white;
+    font-size: 3.7em;
+    font-family: Arial;
+    visibility: hidden;
+}
+h2.active
+{
+    visibility: visible;
+}
+h2 span
+{
+position: absolute;
+    top: 13;
+    font-size: 0.7em;
+}
+#h2
+{
+     position: absolute;
+    top: 52%;
+    left: 25%;
+    color: white;
+    font-size: 3.7em;
+    font-family: Arial;
+    visibility: hidden;
+}
+#h2.active
+{
+    visibility: visible;
+}
+
+.content.active
+{
+    position: absolute;
+    left: -3%;
+    top: -8%;
+    width: 100%;
+    height: 100vh;
+    
+}
+.content1.active
+{
+    
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 18%;
+    top: -5%;
+        
+}
+

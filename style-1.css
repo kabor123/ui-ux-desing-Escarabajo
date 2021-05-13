@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+    
+}
+.leftside, .rghiteside
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.leftside
+{
+    right: 0;
+    background: #155415;
+}
+.rghiteside
+{
+    left: 0;
+    background: #271a40;
+}
+
+.rghiteside.active
+{
+    z-index: 1;
+    width: 100%;
+}
+.leftside.active
+{
+    z-index: 1;
+    width: 100%;
+}
+button
+{
+    position: absolute;
+    background: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: white;
+    font-weight: 900;
+    font-family: Arial;
+    overflow: hidden;
+    cursor: pointer;
+    contain: none;
+   
+}
+
+button.active
+{
+    width: 10%;
+    padding: 9px 0px;
+    
+    
+    
+}

@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="all">
+            
+            <div class="rghiteside">
+                <div class="content">
+                   <img id="tot1" src="tot1.png" alt="">
+                    <img id="esca" src="esca.png" alt="">
+                    <img id="map" src="map.png" alt="">
+                    <h1><span>Desmbiguacion</span> <br> ESCARABAJO</h1>
+                    <p>Escarabajo it's wondrfull bug it's on all the world so thes is one of the most places you can find it on Escarabajo it's wondrfull bug it's on
+                    </p>
+                    <button class="button1" onclick="toggle()">Mor information</button>
+                    <h2>235<span>k</span></h2>
+                    <ul>
+                        <li id="li">Home</li>
+                        <li class="li">About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                </div>
+
+            <div class="leftside">
+                <div class="content1">
+                    <img id="map1" src="map1.png" alt="">
+                    <img id="tot" src="tot.png" alt="">
+                    <img id="esca1" src="esca1.png" alt="">
+                    <h1><span>Desmbiguacion</span> <br> ESCARABAJO</h1>
+                    <p>Escarabajo it's wondrfull bug it's on all the world so thes is one of the most places you can find it on Escarabajo it's wondrfull bug it's on</p>
+                    <button class="button2" onclick="toggle2()">Mor information</button>
+                    <h2 id="h2">375<span>k</span></h2>
+                    <ul>
+                        <li class="li2">Home</li>
+                        <li class="li1">About</li>
+                        <li>Contact</li>
+                    </ul>
+                    </div>
+                </div>
+           
+           
+               
+
+        </section>
+        <script type="text/javascript">
+            function toggle() {
+                const toggle1 = document.querySelector('.button1');
+                toggle1.classList.toggle('change');
+
+                const toggle = document.querySelector('.rghiteside');
+                toggle.classList.toggle('active');
+
+                const toggle2 = document.querySelector('.content');
+                toggle2.classList.toggle('active');
+
+                const toggle3 = document.querySelector('.li');
+                toggle3.classList.toggle('active');
+
+                const toggle4 = document.querySelector('#li');
+                toggle4.classList.toggle('active');
+
+                const toggle5 = document.querySelector('h2');
+                toggle5.classList.toggle('active');
+
+                const toggle6 = document.querySelector('#map');
+                toggle6.classList.toggle('active');
+
+                const toggle7 = document.querySelector('#esca');
+                toggle7.classList.toggle('active');
+
+                const toggle8 = document.querySelector('#tot1');
+                toggle8.classList.toggle('active');
+            }
+            function toggle2() {
+                const toggle1 = document.querySelector('.button2');
+                toggle1.classList.toggle('change1');
+
+                const toggle = document.querySelector('.leftside');
+                toggle.classList.toggle('active');
+
+                const toggle2 = document.querySelector('.content1');
+                toggle2.classList.toggle('active');
+
+                const toggle3 = document.querySelector('.li1');
+                toggle3.classList.toggle('active');
+
+                const toggle4 = document.querySelector('.li2');
+                toggle4.classList.toggle('active');
+
+                const toggle5 = document.querySelector('#esca1');
+                toggle5.classList.toggle('active');
+
+                const toggle6 = document.querySelector('#h2');
+                toggle6.classList.toggle('active');
+
+                const toggle7 = document.querySelector('#tot');
+                toggle7.classList.toggle('active');
+
+                const toggle8 = document.querySelector('#map1');
+                toggle8.classList.toggle('active');
+
+
+            }
+            
+            
+
+        </script>
+    </body>
+</html>
